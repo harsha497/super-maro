@@ -28,7 +28,7 @@ metadata: # Metadata of the resource kind we are creating
   name: supermario-ssvc
 spec:
   selector:
-    app: boardgame
+    app: supermario
   ports:
     - protocol: "TCP"
       port: 80
